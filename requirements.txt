@@ -1,3 +1,6 @@
 fastapi
 uvicorn
+asyncpg
+python-dotenv
 httpx
+pydantic
