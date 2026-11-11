@@ -9,7 +9,7 @@ app = FastAPI(title="Ashish AI")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173"],
+    allow_origins=["http://localhost:5173", "http://127.0.0.1:5173", "https://portfolio-sigma-jet-46.vercel.app"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
