@@ -1,33 +1,105 @@
 {
   "name": "Ashish Kumar",
+  "title": "Software Engineer",
+  "location": "Gurugram, India",
+  "summary": "Software Engineer with 2+ years of experience in backend development, cloud engineering, and AI-powered systems. Skilled in .NET, Azure services, API design, and microservices, with hands-on expertise in RAG workflows, LLM integrations, and enterprise bot development. Proven ability to improve system performance, reduce operational costs, and build scalable, production-grade solutions.",
   "education": {
     "degree": "B.Tech",
-    "college": "NIT Hamirpur"
+    "college": "National Institute of Technology, Hamirpur",
+    "duration": "June 2019 - August 2023",
+    "cgpa": "8.57"
   },
   "experience": [
     {
       "company": "Deloitte",
       "role": "Analyst - Software Engineer",
-      "duration": "August 2025 - Present"
+      "location": "Gurugram, India",
+      "duration": "August 2025 - Present",
+      "responsibilities": [
+        "Developed and enhanced an enterprise AI-powered conversational platform integrating Microsoft Teams, Azure Bot Service, Copilot Studio, and .NET, enabling secure and scalable employee self-service experiences.",
+        "Designed and implemented Retrieval-Augmented Generation (RAG) workflows using Azure AI Search, Azure OpenAI, embeddings, and vector-based retrieval to ground LLM responses in enterprise knowledge and improve response relevance.",
+        "Built an enterprise D2E Relay Bot using ASP.NET Core/.NET, integrating Microsoft Teams with Copilot Studio and implementing On-Behalf-Of (OBO) authentication for secure user-context propagation.",
+        "Implemented real-time multilingual translation for user queries, Copilot responses, and Adaptive Cards using Azure AI Translator and Azure OpenAI/Foundry LLMs, including batching and content-protection mechanisms for reliable translation.",
+        "Developed proactive and bulk notification capabilities using Microsoft Graph API and Azure Cosmos DB, supporting message delivery to both existing and newly onboarded users.",
+        "Built OCR-based document processing pipelines using Azure Document Intelligence and integrated extracted data with LLM and RAG workflows for intelligent document understanding and question answering.",
+        "Implemented Adaptive Cards, Teams SSO, conversation state management, and proactive messaging, enabling interactive enterprise workflows and seamless agent-user experiences.",
+        "Optimized backend services using caching, asynchronous processing, batching, and API-level optimizations to improve scalability and reduce latency in AI and translation workflows."
+      ]
     },
     {
       "company": "Linkfields Innovation",
       "role": "Software Engineer",
-      "duration": "June 2024 - August 2025"
+      "location": "Hyderabad, India",
+      "duration": "June 2024 - August 2025",
+      "responsibilities": [
+        "Implemented MediatR to decouple business logic, reducing response times by 30%.",
+        "Managed 50+ APIs using Azure API Management with secure, scalable rollout.",
+        "Built serverless architectures with Azure Functions, lowering operational costs by 40%.",
+        "Implemented Azure AD & B2C authentication across 100+ enterprise apps.",
+        "Enabled JWT-based authorization aligned with enterprise security standards."
+      ]
     }
   ],
-  "skills": [
-    "C#",
-    ".NET Core",
-    "Python",
-    "REST APIs",
-    "SQL",
-    "Azure Functions",
-    "Azure API Management",
-    "Azure OpenAI"
+  "skills": {
+    "languages": ["C#", "Python", "JavaScript", "SQL"],
+    "technologies": [
+      ".NET Core",
+      "Entity Framework",
+      "REST APIs",
+      "Microservices",
+      "MS365 SDK",
+      "Selenium WebDriver",
+      "SDLC",
+      "Agile",
+      "Git",
+      "Single Sign-On",
+      "Copilot"
+    ],
+    "cloud": [
+      "Azure Functions",
+      "Azure API Management",
+      "Azure AD",
+      "Azure B2C",
+      "Key Vault",
+      "Logic Apps"
+    ],
+    "tools": [
+      "Azure Monitor",
+      "Log Analytics",
+      "Postman",
+      "Swagger",
+      "SOAP UI",
+      "Docker",
+      "GitHub Actions (CI/CD)"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Enterprise RAG-Based Document Q&A System",
+      "description": "Retrieval-Augmented Generation system for intelligent querying of enterprise documents, built on Azure AI Search.",
+      "highlights": [
+        "Designed and implemented a RAG architecture using Azure AI Search to enable intelligent querying of enterprise documents.",
+        "Developed three independent pipelines: Document Indexing for uploading, processing, and indexing data; Question Answering for retrieving relevant information and generating contextual responses; and Index Deletion for removing indexed documents.",
+        "Leveraged Azure Logic Apps and Azure Functions to orchestrate workflows, automate pipeline execution, and handle backend processing.",
+        "Implemented backend functionality using Python, integrating document retrieval and search capabilities to support efficient information discovery."
+      ],
+      "tech": ["Python", "Azure AI Search", "Azure Logic Apps", "Azure Functions"],
+      "link": ""
+    }
   ],
-  "projects": [],
   "certifications": [],
-  "achievements": [],
-  "contact": {}
+  "achievements": [
+    "Received Deloitte's \"Move the Dot - Team\" award for agentic AI solutions with Copilot Studio and Azure.",
+    "Solved 550+ problems on LeetCode.",
+    "Ranked in the top 130 institutionally on GeeksforGeeks.",
+    "Secured 32nd rank statewide in 10th grade."
+  ],
+  "contact": {
+    "email": "ashishkumar2172001@gmail.com",
+    "phone": "+91-6283872395",
+    "location": "Gurugram, India",
+    "linkedin": "https://www.linkedin.com/in/ashish-kumar-933661212/",
+    "github": "https://github.com/ashjarial",
+    "leetcode": "https://leetcode.com/u/Ashish_kumar_dhiman2172001/"
+  }
 }
