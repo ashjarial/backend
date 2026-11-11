@@ -2,11 +2,13 @@ import os
 import json
 import asyncio
 from pathlib import Path
-
 import httpx
 
 BASE_DIR = Path(__file__).parent
+import json
 
+with open("profile.json") as f:
+    profile = json.load(f)
 
 class RateLimitError(Exception):
     pass
@@ -45,8 +47,8 @@ PROFILE_TEXT = json.dumps(PROFILE, ensure_ascii=False, separators=(",", ":"))
 
 SYSTEM_PROMPT = f"""You are Ashish Kumar's friendly AI assistant on his portfolio website.
 
-Use ONLY this verified profile for facts about Ashish:
-{PROFILE_TEXT}
+PROFILE DATA:
+{json.dumps(profile, indent=2)}
 
 Rules:
 1. Answer questions about Ashish (profile, education, experience, skills, projects, achievements, contact links).
