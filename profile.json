@@ -1,0 +1,33 @@
+{
+  "name": "Ashish Kumar",
+  "education": {
+    "degree": "B.Tech",
+    "college": "NIT Hamirpur"
+  },
+  "experience": [
+    {
+      "company": "Deloitte",
+      "role": "Analyst - Software Engineer",
+      "duration": "August 2025 - Present"
+    },
+    {
+      "company": "Linkfields Innovation",
+      "role": "Software Engineer",
+      "duration": "June 2024 - August 2025"
+    }
+  ],
+  "skills": [
+    "C#",
+    ".NET Core",
+    "Python",
+    "REST APIs",
+    "SQL",
+    "Azure Functions",
+    "Azure API Management",
+    "Azure OpenAI"
+  ],
+  "projects": [],
+  "certifications": [],
+  "achievements": [],
+  "contact": {}
+}
