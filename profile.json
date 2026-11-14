@@ -1,19 +1,39 @@
 {
   "name": "Ashish Kumar",
-  "title": "Software Engineer",
-  "location": "Gurugram, India",
-  "summary": "Software Engineer with 2+ years of experience in backend development, cloud engineering, and AI-powered systems. Skilled in .NET, Azure services, API design, and microservices, with hands-on expertise in RAG workflows, LLM integrations, and enterprise bot development. Proven ability to improve system performance, reduce operational costs, and build scalable, production-grade solutions.",
-  "education": {
-    "degree": "B.Tech",
-    "college": "National Institute of Technology, Hamirpur",
-    "duration": "June 2019 - August 2023",
-    "cgpa": "8.57"
+  "title": "Agentic AI Software Engineer",
+  "headline": "Full stack Developer | Agentic AI | .NET Core | RAG | Azure AI search | Generative AI & Cloud Solutions Enthusiast | langchain | Solved 550+ LeetCode Problems",
+  "pronouns": "He/Him",
+  "location": "Gurugram, Haryana, India",
+  "open_to_work": {
+    "status": true,
+    "locations": ["Hyderabad", "+3 more"],
+    "work_modes": ["On-site", "Hybrid", "Remote"]
   },
+  "summary": "Software Engineer with 2+ years of experience in backend development, cloud engineering, and AI-powered systems. Skilled in .NET, Azure services, API design, and microservices, with hands-on expertise in RAG workflows, LLM integrations, and enterprise bot development. Proven ability to improve system performance, reduce operational costs, and build scalable, production-grade solutions.",
+  "about": "Backend Developer at Deloitte specializing in .NET Core, C#, and Azure, with experience building secure, scalable, and high-performance APIs for enterprise applications. At Deloitte, I work on API development and integration, using Azure API Management and Azure Key Vault to build reliable cloud-native services. I also work with Azure AI Search and Azure AI Document Intelligence, where I've implemented scoring profiles with tag-based boosting to prioritize business-critical documents and built pipelines to extract text from images and scanned PDFs, enabling accurate indexing and RAG-ready retrieval workflows. I'm highly interested in Generative AI and applied AI systems, and have worked on RAG-based projects like FITBOT using LLMs, LangChain, and vector databases to extract insights from large document collections. Previously, I worked as an AI Intern, contributing to an automated meeting bot for Zoom, Google Meet, and Teams using Python and ML models. I'm passionate about backend engineering and problem solving, with 550+ LeetCode problems solved, and I continuously work on improving my system design and cloud skills.",
+  "services": ["Web Design", "Web Development", "Custom Software Development"],
+  "education": [
+    {
+      "degree": "B.Tech",
+      "college": "National Institute of Technology, Hamirpur",
+      "duration": "January 2019 - June 2023",
+      "cgpa": "8.57"
+    },
+    {
+      "degree": "12th Class",
+      "college": "Govt Senior Secondary School Kotla Behr",
+      "duration": "March 2018 - March 2019",
+      "grade": "90.2%"
+    }
+  ],
   "experience": [
     {
       "company": "Deloitte",
-      "role": "Analyst - Software Engineer",
-      "location": "Gurugram, India",
+      "role": "Agentic AI Software Engineer",
+      "previous_role_title": "Analyst - Software Engineer",
+      "employment_type": "Full-time",
+      "location": "Gurugram, Haryana, India",
+      "work_mode": "On-site",
       "duration": "August 2025 - Present",
       "responsibilities": [
         "Developed and enhanced an enterprise AI-powered conversational platform integrating Microsoft Teams, Azure Bot Service, Copilot Studio, and .NET, enabling secure and scalable employee self-service experiences.",
@@ -23,14 +43,44 @@
         "Developed proactive and bulk notification capabilities using Microsoft Graph API and Azure Cosmos DB, supporting message delivery to both existing and newly onboarded users.",
         "Built OCR-based document processing pipelines using Azure Document Intelligence and integrated extracted data with LLM and RAG workflows for intelligent document understanding and question answering.",
         "Implemented Adaptive Cards, Teams SSO, conversation state management, and proactive messaging, enabling interactive enterprise workflows and seamless agent-user experiences.",
-        "Optimized backend services using caching, asynchronous processing, batching, and API-level optimizations to improve scalability and reduce latency in AI and translation workflows."
-      ]
+        "Optimized backend services using caching, asynchronous processing, batching, and API-level optimizations to improve scalability and reduce latency in AI and translation workflows.",
+        "Built scoring profiles in Azure AI Search to prioritize search results using tag-based boosting, improving document relevance and retrieval accuracy.",
+        "Extracted and indexed content from scanned PDFs and images using Azure AI Document Intelligence, enabling efficient search across unstructured enterprise data.",
+        "Developed RAG-ready search pipelines by ingesting and indexing unstructured content into Azure AI Search for LLM-powered retrieval.",
+        "Designed and implemented an intelligent multilingual translation framework for Microsoft Copilot, resolving Azure Translator limitations for short words and low-confidence translations through custom fallback logic, language detection, and session-based language management.",
+        "Built Power Automate flows to handle language variant detection and translation orchestration (including regional variants such as Mexican Spanish), ensuring seamless end-to-end localization with Microsoft Copilot.",
+        "Enhanced Microsoft Copilot by implementing temporary and permanent language switching, translation fallback strategies, and backend English processing while preserving users' preferred conversation language.",
+        "Automated business workflows using Power Automate, integrating Azure AI services, SharePoint, SQL, and Microsoft Copilot to streamline enterprise processes and improve user experience."
+      ],
+      "skills_used": [".NET Core", "Azure AI", "Azure AI Search", "Azure AI Document Intelligence", "Azure AI Foundry", "Microsoft Power Automate", "Copilot Studio"]
     },
     {
-      "company": "Linkfields Innovation",
-      "role": "Software Engineer",
-      "location": "Hyderabad, India",
+      "company": "Linkfields Innovations (Pty) Ltd",
+      "employment_type": "Full-time",
+      "location": "Hyderabad, Telangana, India",
       "duration": "June 2024 - August 2025",
+      "roles": [
+        {
+          "role": "Software Engineer 1",
+          "duration": "April 2025 - August 2025",
+          "responsibilities": [
+            "Worked on backend development using .NET technologies.",
+            "Utilized MediatR for handling business logic and OpenAPI for defining and documenting RESTful APIs.",
+            "Integrated and managed APIs using Azure API Management to ensure secure and efficient communication between services.",
+            "Developed serverless solutions with Azure Functions to optimize scalability and performance.",
+            "Implemented Azure Active Directory (AAD) and B2C tenant for authentication and authorization across applications.",
+            "Enabled JWT authentication for secure API access and user identity management.",
+            "Contributed to the design and maintenance of scalable backend systems within the Azure cloud environment."
+          ],
+          "skills_used": [".NET Core"]
+        },
+        {
+          "role": "Associate Software Engineer",
+          "duration": "June 2024 - March 2025",
+          "work_mode": "On-site",
+          "skills_used": ["Azure API Management", "SOAP"]
+        }
+      ],
       "responsibilities": [
         "Implemented MediatR to decouple business logic, reducing response times by 30%.",
         "Managed 50+ APIs using Azure API Management with secure, scalable rollout.",
@@ -38,13 +88,51 @@
         "Implemented Azure AD & B2C authentication across 100+ enterprise apps.",
         "Enabled JWT-based authorization aligned with enterprise security standards."
       ]
+    },
+    {
+      "company": "JobTwine",
+      "role": "Artificial Intelligence Intern",
+      "employment_type": "Internship",
+      "location": "Washington, United States",
+      "work_mode": "Remote",
+      "duration": "March 2024 - June 2024",
+      "responsibilities": [
+        "Contributed to the development of a bot that autonomously joins Zoom, Google Meet, and Microsoft Teams meetings.",
+        "Automated the bot's participation in meetings using Selenium WebDriver, streamlining scheduling and joining processes.",
+        "Integrated open-source Hugging Face models, LLaMA 2, and other LLMs to enhance the bot's capabilities.",
+        "Optimized AI-driven solutions for efficient and intelligent meeting participation."
+      ],
+      "skills_used": ["Python", "LangChain", "Selenium WebDriver", "Hugging Face", "LLaMA 2"]
+    },
+    {
+      "company": "EXL",
+      "role": "Data Engineer",
+      "employment_type": "Apprenticeship",
+      "location": "Remote",
+      "work_mode": "Remote",
+      "duration": "February 2024 - April 2024",
+      "responsibilities": [
+        "Successfully completed the EXL eDART (2023) - Analytics - Foundation program."
+      ]
+    },
+    {
+      "company": "Chegg India",
+      "role": "Subject Matter Expert",
+      "employment_type": "Freelance",
+      "location": "Remote",
+      "work_mode": "Remote",
+      "duration": "August 2021 - January 2023",
+      "responsibilities": []
     }
   ],
   "skills": {
     "languages": ["C#", "Python", "JavaScript", "SQL"],
     "technologies": [
       ".NET Core",
+      "ASP.NET Core",
       "Entity Framework",
+      "MediatR",
+      "OpenAPI",
       "REST APIs",
       "Microservices",
       "MS365 SDK",
@@ -53,7 +141,20 @@
       "Agile",
       "Git",
       "Single Sign-On",
-      "Copilot"
+      "Copilot",
+      "Copilot Studio",
+      "LangChain",
+      "RAG",
+      "Generative AI",
+      "Agentic AI",
+      "Hugging Face",
+      "LLaMA 2",
+      "System Design",
+      "Next.js",
+      "React",
+      "Microsoft Power Automate",
+      "Microsoft Power BI",
+      "Data Analysis"
     ],
     "cloud": [
       "Azure Functions",
@@ -61,7 +162,12 @@
       "Azure AD",
       "Azure B2C",
       "Key Vault",
-      "Logic Apps"
+      "Logic Apps",
+      "Azure AI",
+      "Azure AI Search",
+      "Azure AI Document Intelligence",
+      "Azure AI Foundry",
+      "Azure DevOps Services"
     ],
     "tools": [
       "Azure Monitor",
@@ -71,6 +177,13 @@
       "SOAP UI",
       "Docker",
       "GitHub Actions (CI/CD)"
+    ],
+    "top_skills": [
+      "Azure Logic Apps",
+      "Azure Functions",
+      "Azure AI",
+      "Python (Programming Language)",
+      "Azure DevOps Services"
     ]
   },
   "projects": [
@@ -85,21 +198,78 @@
       ],
       "tech": ["Python", "Azure AI Search", "Azure Logic Apps", "Azure Functions"],
       "link": ""
+    },
+    {
+      "name": "FITBOT",
+      "description": "RAG-based project using LLMs, LangChain, and vector databases to extract insights from large document collections.",
+      "highlights": [],
+      "tech": ["LLMs", "LangChain", "Vector Databases"],
+      "link": ""
+    },
+    {
+      "name": "AI Portfolio Website",
+      "description": "Personal portfolio with an AI assistant that answers questions about his work.",
+      "highlights": [],
+      "tech": [],
+      "link": "https://portfolio-sigma-jet-46.vercel.app"
+    },
+    {
+      "name": "Movie Lens Project",
+      "description": "Data analysis and Power BI dashboard on classic movies released until 2000, covering data modeling, cleaning, and transformation, genre preferences by gender, and user engagement.",
+      "highlights": [
+        "Performed data modeling, cleaning, and transformation, and defined relationships between tables.",
+        "Analyzed how many movies and distinct genres were released until 2000, the size and gender diversity of the MovieLens community, and genre preferences by gender."
+      ],
+      "tech": ["Microsoft Power BI", "Data Analysis"],
+      "link": ""
+    },
+    {
+      "name": "Principal Component Analysis with numpy",
+      "description": "Implementation of Principal Component Analysis using numpy.",
+      "duration": "August 2020 - September 2020",
+      "highlights": [],
+      "tech": ["Python", "numpy"],
+      "link": ""
     }
   ],
-  "certifications": [],
+  "certifications": [
+    {
+      "name": "AI Governance: The Fundamentals of AI Governance",
+      "issuer": "Udemy",
+      "issued": "September 2026"
+    },
+    {
+      "name": "Prompt Engineering for Everyone Bootcamp",
+      "issuer": "Udemy",
+      "issued": "September 2026"
+    },
+    {
+      "name": "AI for Everyone: Understanding and Applying the Basics",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "React JS Portfolio Project - React training for Beginners",
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Build your kernel (badge)",
+      "issuer": "Microsoft Learn"
+    }
+  ],
   "achievements": [
     "Received Deloitte's \"Move the Dot - Team\" award for agentic AI solutions with Copilot Studio and Azure.",
     "Solved 550+ problems on LeetCode.",
     "Ranked in the top 130 institutionally on GeeksforGeeks.",
     "Secured 32nd rank statewide in 10th grade."
   ],
+  "languages": ["English"],
   "contact": {
     "email": "ashishkumar2172001@gmail.com",
     "phone": "+91-6283872395",
     "location": "Gurugram, India",
     "linkedin": "https://www.linkedin.com/in/ashish-kumar-933661212/",
     "github": "https://github.com/ashjarial",
-    "leetcode": "https://leetcode.com/u/Ashish_kumar_dhiman2172001/"
+    "leetcode": "https://leetcode.com/u/Ashish_kumar_dhiman2172001/",
+    "portfolio": "https://portfolio-sigma-jet-46.vercel.app"
   }
 }
